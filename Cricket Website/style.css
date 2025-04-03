@@ -1,0 +1,160 @@
+body{
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    
+    background-image: url(https://ninjasfiles.s3.amazonaws.com/asset_0000000000003226_1714596295_pics1.png);
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    background-repeat:no-repeat ;
+   
+    
+}
+header{
+    background: navy ;
+    height: 70px;
+    margin-top: 0;
+    top: 0;
+    width: 100vw;
+    padding: 10px;
+    color: white;
+    position:fixed;
+    text-shadow: black 1px 1px;
+    
+}
+main{
+    place-items: center;
+}
+#images div{
+    margin-top:200px;
+    display: inline-block;
+    margin-right: 20px;
+    width: 40vh;
+    height: 25vh;
+    position: sticky;
+    border-radius: 10px;
+    background-size: cover;
+    background-color: white;
+    background-position: center;
+    border: 6px  white solid;
+    filter: brightness(70%);
+    
+}
+.cha{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 150px;
+    position: relative;
+    
+}
+.img1{
+    background-image: url(https://ninjasfiles.s3.amazonaws.com/asset_0000000000003227_1714596308_pics2.png);
+    position: absolute;
+    
+   
+}
+.img2{
+    background-image: url(https://ninjasfiles.s3.amazonaws.com/asset_0000000000003228_1714596324_pics3.png);
+    position: absolute;
+}
+.img3{
+    background-image: url(https://ninjasfiles.s3.amazonaws.com/asset_0000000000003229_1714596356_pics4.png);
+    position: absolute;
+}
+#star{
+    margin-top:30px;
+    display: block; 
+    width: 500px;
+    height: 350px;
+    overflow-y: scroll;
+    max-height: 380px;
+    border-radius: 10px;
+    background-size: cover;
+    background-color: white;
+    background-position: center;
+    border: 6px  white solid;
+    background-position: center top;
+    position: relative;
+    
+    
+}
+#star .tar{
+    background-color:white;
+    width: 450px;
+    align-items: center;
+    position:static ;
+    font-size: 30px;
+    background: white ;
+    background-size: 100% ;
+    text-align: center;
+    margin-top: 0px;
+    /* align-content: center;
+    align-items:center; */
+    display: flex;
+    justify-content: center;
+    background-position-x: center;
+}
+
+#star div{
+    align-items: center;
+    background-size: cover;
+    margin-top: 20px;
+    border-image: 20px;
+    height: 300px;
+    width: 400px;
+    margin-top:80px;
+    background-position: center;
+    margin-left: 20px;
+    border-radius: 20px;
+    object-fit: cover;
+    position: static;
+    
+    
+}
+.fig{
+    font-size: 30px;
+    text-align:center ;
+    text-align-last: center; 
+}
+.fig1{
+    background-image: url(https://ninjasfiles.s3.amazonaws.com/asset_0000000000003230_1714596372_pics5.png);
+    
+      
+   
+}
+.fig2{
+    background-image: url(https://ninjasfiles.s3.amazonaws.com/asset_0000000000003231_1714596390_pics6.png);
+    
+    
+
+}
+.fig3{
+    background-image: url(https://ninjasfiles.s3.amazonaws.com/asset_0000000000003232_1714596401_pics7.png);
+    
+}
+table{
+    margin-top: 30px;
+    width:80%;
+    height: 200px;
+    font-weight: bold;
+    border-collapse: collapse;
+    padding: 10px;
+}
+th{
+    background-color: navy;
+    color: white;
+}
+td{
+    background-color:white;
+}
+footer{
+    background-color: navy;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 15px;
+    margin-top: 20px;
+}
